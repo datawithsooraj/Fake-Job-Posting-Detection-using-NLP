@@ -23,19 +23,19 @@ Fake jobs	1
 
 ### The following preprocessing steps were applied:
 
-• Removed columns with excessive missing values
+•  Removed columns with excessive missing values
 
-• Handled missing data in categorical and text features
+•  Handled missing data in categorical and text features
 
-• Combined multiple text fields into a single feature
+•  Combined multiple text fields into a single feature
 
-• Converted text to lowercase
+•  Converted text to lowercase
 
-• Removed special characters and numbers
+•  Removed special characters and numbers
 
-• Removed stopwords
+•  Removed stopwords
 
-• Applied lemmatisation
+•  Applied lemmatisation
 
 ## Feature Engineering
 ### TF-IDF Vectorization
