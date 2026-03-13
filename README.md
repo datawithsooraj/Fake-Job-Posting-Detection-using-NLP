@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-The rapid growth of online job portals has made job searching easier, but has also increased the number of fraudulent job postings. These fake job listings can mislead job seekers, waste time, and sometimes lead to financial loss or identity theft.
+The rapid growth of online job portals has made job searching easier, but has also increased the number of fraudulent job postings. These fraudulent job listings can mislead job seekers, waste time, and sometimes result in financial loss or identity theft.
 
-This project builds a machine learning model using Natural Language Processing (NLP) to automatically classify job postings as real or fraudulent.
+This project builds a machine learning model using Natural Language Processing (NLP) to classify job postings as real or fraudulent automatically.
 
 ## Dataset
 
@@ -24,11 +24,17 @@ Fake jobs	1
 ### The following preprocessing steps were applied:
 
 • Removed columns with excessive missing values
+
 • Handled missing data in categorical and text features
+
 • Combined multiple text fields into a single feature
+
 • Converted text to lowercase
+
 • Removed special characters and numbers
+
 • Removed stopwords
+
 • Applied lemmatisation
 
 ## Feature Engineering
@@ -39,7 +45,9 @@ Text data was transformed into numerical features using TF-IDF (Term Frequency�
 Benefits of TF-IDF:
 
 • Captures important words in job descriptions
+
 • Reduces the impact of common words
+
 • Improves classification performance
 
 Parameters used:
