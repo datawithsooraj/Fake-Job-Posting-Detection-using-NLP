@@ -101,7 +101,7 @@ The model achieved strong performance in distinguishing between real and fake jo
 
 Possible extensions for this project:
 
-1. Browser Extension
+### 1. Browser Extension
 Create a Chrome Extension that scans job postings on websites like:
 
 • LinkedIn
@@ -110,18 +110,18 @@ Create a Chrome Extension that scans job postings on websites like:
 
 and alerts users if the job appears suspicious.
 
-2. Real-Time API
+### 2. Real-Time API
 
 - Deploy the model as a REST API so job portals can automatically verify job postings.
 
-3. Advanced NLP Models
+### 3. Advanced NLP Models
 
 Improve accuracy using modern models such as:
 1. BERT
 2. RoBERTa
 3. Transformer-based classifiers.
 
-4. Continuous Learning
+### 4. Continuous Learning
 
 - Allow users to report fake jobs and retrain the model with new data.
 
